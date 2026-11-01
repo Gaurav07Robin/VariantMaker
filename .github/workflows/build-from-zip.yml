@@ -14,7 +14,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip InstillVariantMaker-Android-Source.zip
+          unzip InstillVariantMaker-AutoCodec-Update.zip
           cp -a InstillVariantMaker/. .
 
       - name: Set up Java
